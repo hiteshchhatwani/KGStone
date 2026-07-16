@@ -13,7 +13,7 @@ export const testimonials: Testimonial[] = [
     treatment: "Laser Stone Surgery",
     rating: 5,
     quote:
-      "I'd had stone pain on and off for two years and kept putting off surgery because I was scared of a long recovery. Dr. Gehlot explained the laser option clearly, and I was back at my shop in three days. Wish I'd come sooner.",
+      "I'd had stone pain on and off for two years and kept putting off surgery because I was scared of a long recovery. Dr. Sharma explained the laser option clearly, and I was back at my shop in three days. Wish I'd come sooner.",
   },
   {
     name: "Sunita Rathore",
@@ -61,7 +61,7 @@ export const testimonials: Testimonial[] = [
     treatment: "PCNL",
     rating: 5,
     quote:
-      "At 68, I was worried about undergoing any procedure. Dr. Gehlot and his team were patient with all my questions and monitored me closely afterward. Full recovery, no complications.",
+      "At 68, I was worried about undergoing any procedure. Dr. Sharma and his team were patient with all my questions and monitored me closely afterward. Full recovery, no complications.",
   },
   {
     name: "Priyanka Kumawat",

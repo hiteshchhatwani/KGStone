@@ -14,7 +14,7 @@ import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: "About the Doctor",
-  description: `Meet ${doctor.name}, ${doctor.title} at KG Stone Hospital, Ajmer — ${doctor.experienceYears}+ years of experience and over 15,000 kidney stone procedures.`,
+  description: `Meet ${doctor.name}, ${doctor.title} at KG Stone Hospital, Ajmer — ${doctor.surgeriesPerformed} surgeries performed, Ajmer division's first urology surgery.`,
   alternates: { canonical: "/about-doctor" },
 };
 
@@ -121,7 +121,7 @@ export default function AboutDoctorPage() {
 
       <CTASection
         title="Have a question before booking?"
-        description="Send Dr. Gehlot's team your scan or reports over WhatsApp for a quick initial read before your visit."
+        description="Send Dr. Sharma's team your scan or reports over WhatsApp for a quick initial read before your visit."
       />
     </>
   );

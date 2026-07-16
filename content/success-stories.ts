@@ -23,7 +23,7 @@ export const successStories: SuccessStory[] = [
       "A 2.8 cm staghorn stone that had gone undiagnosed for years, cleared in one PCNL procedure with a two-night stay.",
     story: [
       "Mahesh had lived with dull, recurring back pain for nearly three years, treating it as ordinary muscle strain. A routine ultrasound during an unrelated check-up revealed a large staghorn stone filling much of his left kidney's collecting system.",
-      "At consultation, Dr. Gehlot reviewed his CT scan and recommended PCNL as the most efficient way to clear a stone of this size and shape in a single sitting, rather than multiple rounds of laser treatment.",
+      "At consultation, Dr. Sharma reviewed his CT scan and recommended PCNL as the most efficient way to clear a stone of this size and shape in a single sitting, rather than multiple rounds of laser treatment.",
       "The procedure took just under two hours. Mahesh was monitored for two nights and discharged with clear instructions on drinking fluids and a follow-up scan schedule. Six weeks later, imaging confirmed complete stone clearance.",
       "\"I'd been living with that pain for years thinking it was normal,\" Mahesh says. \"I didn't expect to be back to my daily walk within two weeks of a stone that size.\"",
     ],
@@ -40,7 +40,7 @@ export const successStories: SuccessStory[] = [
       "A stone lodged in a hard-to-reach lower kidney calyx was cleared without any incision using RIRS after two other consultations recommended open surgery.",
     story: [
       "Sunita's stone sat in the lower pole of her kidney — a position that's notoriously difficult to access and clear efficiently, and two prior consultations elsewhere had suggested open surgery as the only reliable option.",
-      "At KG Stone Hospital, Dr. Gehlot proposed RIRS using a flexible ureteroscope, explaining that the scope's ability to bend into the lower pole made it a realistic non-surgical option despite the stone's position.",
+      "At KG Stone Hospital, Dr. Sharma proposed RIRS using a flexible ureteroscope, explaining that the scope's ability to bend into the lower pole made it a realistic non-surgical option despite the stone's position.",
       "The procedure was completed in just over an hour with no external incision. A temporary stent supported healing for twelve days, after which Sunita returned for a simple outpatient removal.",
       "\"I was ready for a big surgery and a long recovery,\" she says. \"Instead I was home the same evening and back to my routine within a week.\"",
     ],
@@ -73,7 +73,7 @@ export const successStories: SuccessStory[] = [
     summary:
       "A patient initially told she needed PCNL for a 1.1 cm stone received a second opinion recommending RIRS instead — a less invasive procedure with equally strong clearance outcomes for that stone size.",
     story: [
-      "Priyanka came to KG Stone Hospital for a second opinion after being told elsewhere that her 1.1 cm kidney stone would require PCNL. Reviewing her imaging, Dr. Gehlot explained that a stone of that size and position was well within the range where RIRS achieves comparable clearance with a smaller footprint.",
+      "Priyanka came to KG Stone Hospital for a second opinion after being told elsewhere that her 1.1 cm kidney stone would require PCNL. Reviewing her imaging, Dr. Sharma explained that a stone of that size and position was well within the range where RIRS achieves comparable clearance with a smaller footprint.",
       "RIRS was performed on an outpatient basis. She went home the same evening with a temporary stent, which was removed after ten days in a short clinic visit.",
       "Follow-up imaging four weeks later confirmed the kidney was completely stone-free.",
       "\"I appreciated that they explained why a smaller procedure would work just as well, instead of defaulting to the bigger one,\" Priyanka says.",

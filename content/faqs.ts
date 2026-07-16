@@ -73,7 +73,7 @@ export const faqs: FAQ[] = [
     category: "Treatment",
     question: "What treatment options are available for kidney stones?",
     answer:
-      "Options range from conservative management (fluids and medication for small stones) to ESWL, URS, RIRS, PCNL and laser stone surgery for larger or symptomatic stones. Dr. Gehlot recommends the least invasive option appropriate for your stone's size, location and composition.",
+      "Options range from conservative management (fluids and medication for small stones) to ESWL, URS, RIRS, PCNL and laser stone surgery for larger or symptomatic stones. Dr. Sharma recommends the least invasive option appropriate for your stone's size, location and composition.",
   },
   {
     category: "Treatment",

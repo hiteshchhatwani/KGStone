@@ -268,7 +268,7 @@ export const services: Service[] = [
       {
         question: "How do I know if my stone is suitable for ESWL?",
         answer:
-          "Dr. Gehlot reviews your stone's size, location and density (from a CT or X-ray) at consultation — softer, smaller stones respond best. Harder or larger stones are usually better served by laser treatment or PCNL.",
+          "Dr. Sharma reviews your stone's size, location and density (from a CT or X-ray) at consultation — softer, smaller stones respond best. Harder or larger stones are usually better served by laser treatment or PCNL.",
       },
       {
         question: "How many ESWL sessions will I need?",

@@ -1,15 +1,15 @@
 export const stats = [
-  { label: "Stone surgeries performed", value: "15,000+", icon: "activity" },
-  { label: "Years serving Ajmer", value: "15+", icon: "calendar" },
-  { label: "Stone-free success rate", value: "98%", icon: "target" },
-  { label: "Patient rating", value: "4.9/5", icon: "star" },
+  { label: "Surgeries performed", value: "10,000+", icon: "activity" },
+  { label: "Ajmer division's", value: "1st Urology Surgery", icon: "award" },
+  { label: "Emergency care", value: "24×7", icon: "calendar" },
+  { label: "Core specialties", value: "5", icon: "target" },
 ] as const;
 
 export const homeStats = [
-  { label: "Successful stone surgeries", value: 15000, suffix: "+" },
-  { label: "Years of dedicated stone care", value: 15, suffix: "+" },
-  { label: "Stone-free success rate", value: 98, suffix: "%" },
-  { label: "Average patient rating", value: 4.9, suffix: "/5" },
+  { label: "Successful surgeries performed", value: 10000, suffix: "+" },
+  { label: "Core urology specialties", value: 5, suffix: "" },
+  { label: "Emergency care availability", value: 24, suffix: "×7" },
+  { label: "In-house diagnostic facilities", value: 5, suffix: "+" },
 ] as const;
 
 export const technology = [

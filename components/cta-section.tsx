@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils";
 
 export function CTASection({
   title = "Don't let stone pain wait.",
-  description = "Book a consultation with Dr. Kamal Gehlot and get a clear treatment plan — most patients are seen within 24 hours.",
+  description = "Book a consultation with Dr. Kuldeep Sharma and get a clear treatment plan — most patients are seen within 24 hours.",
 }: {
   title?: string;
   description?: string;

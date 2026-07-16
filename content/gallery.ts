@@ -16,7 +16,7 @@ export const galleryItems: GalleryItem[] = [
   { category: "Equipment", title: "Flexible Ureteroscope Unit", icon: "circuit-board" },
   { category: "Equipment", title: "ESWL Lithotripter", icon: "waves" },
   { category: "Equipment", title: "Digital X-ray & Ultrasound", icon: "monitor" },
-  { category: "Doctor", title: "Dr. Kamal Gehlot — Consultation Room", icon: "user-round" },
+  { category: "Doctor", title: "Dr. Kuldeep Sharma — Consultation Room", icon: "user-round" },
   { category: "Patients", title: "Patient Counselling Session", icon: "heart-handshake" },
   { category: "Patients", title: "Post-Procedure Follow-up", icon: "clipboard-check" },
   { category: "Hospital", title: "Pharmacy Counter", icon: "pill" },

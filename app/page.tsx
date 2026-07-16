@@ -53,16 +53,16 @@ export default function Home() {
             <Reveal>
               <span className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/10 px-3 py-1 text-xs font-semibold tracking-wide text-primary uppercase">
                 <Sparkles className="h-3.5 w-3.5" aria-hidden="true" />
-                Ajmer&rsquo;s Dedicated Stone Care Centre
+                Ajmer&rsquo;s Super-Specialty Urology Hospital
               </span>
               <h1 className="mt-5 text-balance font-heading text-4xl font-semibold tracking-tight text-foreground sm:text-5xl lg:text-6xl">
                 Kidney Stone Pain Ends Here.{" "}
                 <span className="text-primary">Laser-Precise</span> Treatment in Ajmer.
               </h1>
               <p className="mt-5 max-w-xl text-balance text-base leading-relaxed text-muted-foreground sm:text-lg">
-                {siteConfig.name} treats kidney stones of every size with laser surgery, PCNL,
-                URS, RIRS and ESWL — led by {doctor.name}, {doctor.experienceYears}+ years and
-                15,000+ procedures. Most patients go home the same day.
+                {siteConfig.name}{" "}treats kidney stones of every size with laser surgery, PCNL,
+                URS, RIRS and ESWL — led by {doctor.name}, {doctor.surgeriesPerformed}{" "}surgeries
+                performed. Most patients go home the same day.
               </p>
             </Reveal>
             <Reveal delay={0.1} className="mt-8 flex flex-wrap items-center gap-3">
@@ -112,8 +112,8 @@ export default function Home() {
                   <ShieldCheck className="h-5 w-5" aria-hidden="true" />
                 </div>
                 <div>
-                  <p className="text-sm font-semibold text-foreground">98% Success Rate</p>
-                  <p className="text-xs text-muted-foreground">Stone-free outcomes</p>
+                  <p className="text-sm font-semibold text-foreground">10,000+ Surgeries</p>
+                  <p className="text-xs text-muted-foreground">Performed by Dr. Sharma</p>
                 </div>
               </div>
               <div className="glass absolute -top-5 -right-4 flex items-center gap-3 rounded-2xl p-3.5 shadow-lg sm:-right-8">
@@ -141,11 +141,11 @@ export default function Home() {
               Advanced stone care, built for Ajmer — not imported from it.
             </h2>
             <p className="mt-4 leading-relaxed text-muted-foreground">
-              Founded in {siteConfig.founded}, {siteConfig.name} was built around a simple idea:
-              patients in Ajmer shouldn&rsquo;t have to travel to Jaipur or beyond for advanced,
-              laser-based kidney stone treatment. Today, our in-house laser lithotripsy suite,
-              fluoroscopy-guided PCNL setup and flexible ureteroscopes put us on par with the
-              region&rsquo;s leading urology centres.
+              {siteConfig.name}{" "}was built around a simple idea: patients in Ajmer shouldn&rsquo;t
+              have to travel to Jaipur or beyond for advanced, laser-based kidney stone treatment.
+              Led by Dr. Kuldeep Sharma — who performed the Ajmer division&rsquo;s first urology
+              surgery — our in-house laser lithotripsy suite, fluoroscopy-guided PCNL setup and
+              flexible ureteroscopes put us on par with the region&rsquo;s leading urology centres.
             </p>
             <ul className="mt-6 space-y-3">
               {[
@@ -368,7 +368,7 @@ export default function Home() {
             </h2>
             <p className="mt-4 leading-relaxed text-muted-foreground">
               Take a look inside our operation theatre, recovery suite and laser lithotripsy unit
-              — the same facility where over 15,000 stone procedures have been performed.
+              — the same facility where over 10,000 surgeries have been performed.
             </p>
             <Link
               href="/gallery"

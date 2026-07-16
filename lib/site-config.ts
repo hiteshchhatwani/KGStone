@@ -1,49 +1,48 @@
 export const siteConfig = {
   name: "KG Stone Hospital",
   shortName: "KG Stone",
-  tagline: "Advanced Kidney Stone Care, Closer to Home",
+  tagline: "Best Urology Care Under One Roof",
   description:
-    "KG Stone Hospital is Ajmer's dedicated kidney stone treatment centre, offering laser stone surgery, PCNL, URS, RIRS and ESWL under one roof with a 98% success rate and same-day discharge for most procedures.",
-  url: "https://www.kgstonehospital.in",
-  founded: 2011,
-  yearsOfExperience: 15,
+    "KG Stone Hospital is Ajmer's super-specialty urology hospital, offering kidney stone treatment, prostate care, UTI/infection management, laser surgery and infertility treatment under one roof, led by Dr. Kuldeep Sharma with 10,000+ surgeries performed.",
+  url: "https://kg-stone.vercel.app",
   logoInitials: "KG",
 };
 
 export const contactInfo = {
-  phone: "+91 98765 43210",
-  phoneDisplay: "+91-98765-43210",
-  phoneHref: "tel:+919876543210",
-  emergencyPhone: "+91 98765 43211",
-  emergencyPhoneHref: "tel:+919876543211",
-  whatsapp: "+91 98765 43210",
-  whatsappHref: "https://wa.me/919876543210",
+  phone: "+91 94609 60666",
+  phoneDisplay: "+91-94609-60666",
+  phoneHref: "tel:+919460960666",
+  emergencyPhone: "+91 94609 60666",
+  emergencyPhoneHref: "tel:+919460960666",
+  landline: "01452-623333",
+  landlineHref: "tel:+911452623333",
+  whatsapp: "+91 94609 60666",
+  whatsappHref: "https://wa.me/919460960666",
   whatsappMessage:
-    "Hello KG Stone Hospital, I would like to enquire about kidney stone treatment.",
-  email: "care@kgstonehospital.in",
-  appointmentEmail: "appointments@kgstonehospital.in",
+    "Hello KG Stone Hospital, I would like to enquire about treatment.",
+  email: "kgstonehospitalajmer@gmail.com",
+  appointmentEmail: "kgstonehospitalajmer@gmail.com",
   address: {
-    line1: "204, Jaipur Road, Vaishali Nagar",
-    line2: "Ajmer, Rajasthan 305004",
-    full: "204, Jaipur Road, Vaishali Nagar, Ajmer, Rajasthan 305004, India",
-    mapsQuery: "Jaipur+Road+Vaishali+Nagar+Ajmer+Rajasthan+305004",
+    line1: "Christian Ganj, Anasagar Road",
+    line2: "Ajmer, Rajasthan 305001",
+    full: "Christian Ganj, Anasagar Road, Ajmer, Rajasthan 305001, India",
+    mapsQuery: "Christian+Ganj+Anasagar+Road+Ajmer+Rajasthan+305001",
     mapsEmbedSrc:
-      "https://www.google.com/maps?q=Jaipur+Road,+Vaishali+Nagar,+Ajmer,+Rajasthan+305004&output=embed",
-    lat: 26.4691,
-    lng: 74.6392,
+      "https://www.google.com/maps?q=Christian+Ganj,+Anasagar+Road,+Ajmer,+Rajasthan+305001&output=embed",
+    lat: 26.4611,
+    lng: 74.6362,
   },
   hours: [
-    { days: "Monday – Saturday", time: "9:00 AM – 8:00 PM" },
-    { days: "Sunday", time: "10:00 AM – 2:00 PM" },
+    { days: "Monday – Friday", time: "9:00 AM – 11:00 AM & 5:00 PM – 7:00 PM" },
+    { days: "Saturday – Sunday", time: "By appointment only" },
   ],
-  emergencyNote: "Emergency stone pain & urology emergencies attended 24×7",
+  emergencyNote: "Emergency urology & stone pain attended 24×7",
   social: {
-    facebook: "https://facebook.com/kgstonehospital",
-    instagram: "https://instagram.com/kgstonehospital",
+    facebook: "https://facebook.com/kgstonebesturologycareclinic",
+    instagram: "https://instagram.com/kgstonehospitalajmer",
     youtube: "https://youtube.com/@kgstonehospital",
-    twitter: "https://twitter.com/kgstonehospital",
   },
 } as const;
 
 export const legalNote =
-  "Business details such as phone number, address, medical registration numbers and photographs on this site are placeholders for a demo build. Replace them with KG Stone Hospital's verified details, the treating doctor's real medical council registration number, and licensed photography before this site is taken live.";
+  "Business details on this site reflect KG Stone Hospital's publicly listed information. Photography of the facility and select marketing graphics are used with the hospital's own promotional material; replace with fresh licensed photography as available.";

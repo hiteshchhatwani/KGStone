@@ -17,7 +17,7 @@ export function medicalBusinessSchema() {
       streetAddress: contactInfo.address.line1,
       addressLocality: "Ajmer",
       addressRegion: "Rajasthan",
-      postalCode: "305004",
+      postalCode: "305001",
       addressCountry: "IN",
     },
     geo: {
@@ -29,15 +29,15 @@ export function medicalBusinessSchema() {
     openingHoursSpecification: [
       {
         "@type": "OpeningHoursSpecification",
-        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
         opens: "09:00",
-        closes: "20:00",
+        closes: "11:00",
       },
       {
         "@type": "OpeningHoursSpecification",
-        dayOfWeek: ["Sunday"],
-        opens: "10:00",
-        closes: "14:00",
+        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        opens: "17:00",
+        closes: "19:00",
       },
     ],
     sameAs: Object.values(contactInfo.social),

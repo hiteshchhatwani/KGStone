@@ -37,6 +37,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# raw reference material, not part of the deployed site
+/new info/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

@@ -22,7 +22,7 @@ export const mainNav: NavGroup[] = [
     label: "About",
     items: [
       { label: "About the Hospital", href: "/about-hospital", description: "Our story, facility & values" },
-      { label: "About the Doctor", href: "/about-doctor", description: "Meet Dr. Kamal Gehlot" },
+      { label: "About the Doctor", href: "/about-doctor", description: "Meet Dr. Kuldeep Sharma" },
     ],
   },
   {

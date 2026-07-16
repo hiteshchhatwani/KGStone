@@ -48,7 +48,7 @@ export default function TreatmentIndexPage() {
           <SectionHeading
             eyebrow="How We Decide"
             title="What determines the right treatment for you"
-            description="Dr. Gehlot reviews six factors from your imaging and history before recommending a procedure — never a one-size-fits-all default."
+            description="Dr. Sharma reviews six factors from your imaging and history before recommending a procedure — never a one-size-fits-all default."
             align="center"
           />
           <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">

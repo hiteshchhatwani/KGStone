@@ -5,6 +5,7 @@ import { SectionHeading } from "@/components/section-heading";
 import { Reveal } from "@/components/reveal";
 import { StatCard } from "@/components/stat-card";
 import { PlaceholderImage } from "@/components/placeholder-image";
+import Image from "next/image";
 import { CTASection } from "@/components/cta-section";
 import { DynamicIcon } from "@/lib/icon";
 import { stats, technology } from "@/content/stats";
@@ -13,7 +14,7 @@ import { siteConfig } from "@/lib/site-config";
 export const metadata: Metadata = {
   title: "About the Hospital",
   description:
-    "Learn about KG Stone Hospital, Ajmer's dedicated kidney stone treatment centre — our story, facility, technology and values since 2011.",
+    "Learn about KG Stone Hospital, Ajmer's super-specialty urology hospital — our story, facility, technology and values.",
   alternates: { canonical: "/about-hospital" },
 };
 
@@ -46,19 +47,22 @@ export default function AboutHospitalPage() {
       <Breadcrumbs items={[{ name: "About the Hospital", href: "/about-hospital" }]} />
       <PageHero
         eyebrow="About Us"
-        title="A dedicated stone-care centre, built for Ajmer"
-        description={`${siteConfig.name} has focused exclusively on kidney stone diagnosis and treatment since ${siteConfig.founded} — no waiting lists shared with unrelated departments, no referrals elsewhere for advanced procedures.`}
+        title="A dedicated urology & stone-care centre, built for Ajmer"
+        description={`${siteConfig.name} is Ajmer's super-specialty urology hospital, led by Dr. Kuldeep Sharma — no referrals elsewhere for advanced stone, prostate or urinary procedures.`}
       />
 
       <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
         <div className="grid gap-10 lg:grid-cols-2 lg:items-center lg:gap-16">
           <Reveal>
-            <PlaceholderImage
-              icon="building-2"
-              label={`${siteConfig.name} building exterior`}
-              className="aspect-[4/3] w-full"
-              iconClassName="h-16 w-16"
-            />
+            <div className="relative aspect-[4/3] w-full overflow-hidden rounded-3xl border border-border/70">
+              <Image
+                src="/images/hospital-building.jpg"
+                alt={`${siteConfig.name} building exterior`}
+                fill
+                sizes="(min-width: 1024px) 50vw, 100vw"
+                className="object-cover"
+              />
+            </div>
           </Reveal>
           <Reveal delay={0.1}>
             <span className="inline-flex items-center gap-2 rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold tracking-wide text-primary uppercase">
@@ -69,20 +73,23 @@ export default function AboutHospitalPage() {
             </h2>
             <div className="mt-4 space-y-4 leading-relaxed text-muted-foreground">
               <p>
-                Before {siteConfig.name} opened its doors in {siteConfig.founded}, patients across
-                Ajmer and the surrounding districts routinely travelled to Jaipur — sometimes
-                further — for laser-based kidney stone treatment. A same-day, minimally invasive
-                option simply didn&rsquo;t exist locally.
+                Before {siteConfig.name}{" "}opened its doors, patients across Ajmer and the
+                surrounding districts routinely travelled to Jaipur — sometimes further — for
+                laser-based kidney stone treatment. A same-day, minimally invasive option simply
+                didn&rsquo;t exist locally.
               </p>
               <p>
-                {siteConfig.name} was founded to close that gap: a single-focus hospital where the
-                operating theatre, imaging, laboratory and recovery suite are all built specifically
-                around stone care, rather than one small corner of a general hospital.
+                {siteConfig.name}{" "}was founded by Dr. Kuldeep Sharma, who performed the Ajmer
+                division&rsquo;s first urology surgery, to close that gap: a super-specialty
+                hospital where the operating theatre, imaging, laboratory and recovery suite are
+                all built specifically around urology care — kidney stones, prostate, UTI and
+                urinary disorders — rather than one small corner of a general hospital.
               </p>
               <p>
-                Today, that focus shows in the numbers — over 15,000 procedures performed, a 98%
-                stone-free success rate, and a team that has seen nearly every stone presentation
-                Rajasthan&rsquo;s climate and diet can produce.
+                Today, that focus shows in the numbers — over 10,000 surgeries performed across
+                stone, prostate, cancer and reconstructive urology, and a team that has seen
+                nearly every urological condition Rajasthan&rsquo;s climate and population can
+                produce.
               </p>
             </div>
           </Reveal>
